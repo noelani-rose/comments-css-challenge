@@ -1,0 +1,23 @@
+body{
+    background-color: hsl(223deg 11% 90%);
+    margin: 8em;
+}
+
+p{
+    background-color: white;
+    padding: 2em;
+    color: hsl(223deg 9% 63%);
+}
+
+.comments{
+    font-size: small;
+}
+
+img{
+    height: 40px;
+}
+
+.name{
+    color: rgb(59, 56, 56) ;
+    font-weight: bold;
+}

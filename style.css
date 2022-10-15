@@ -11,9 +11,6 @@ p{
     color: hsl(223deg 9% 63%);
     border-radius: 5px;
     font-family: Verdana, sans-serif;
-}
-
-.comments{
     font-size: small;
 }
 
@@ -47,6 +44,7 @@ img{
 .addComment{
     background-color: white;
     padding: 3em;
+    padding-right: 11em;
     border-radius: 5px;
 }
 
@@ -54,4 +52,15 @@ img{
     border: solid 1px;
     font-size: small;
     padding-bottom: 5em;
+    padding-right: -1em;
+}
+
+.send{
+    position: relative;
+    left: 35em;
+    top: 2em;
+    background-color: hsl(238, 40%, 52%);
+    padding: .8em 2em;
+    border-radius: 5px;
+    color: white;
 }

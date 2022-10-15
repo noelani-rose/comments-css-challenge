@@ -46,4 +46,12 @@ img{
 
 .addComment{
     background-color: white;
+    padding: 3em;
+    border-radius: 5px;
+}
+
+.addCommentText{
+    border: solid 1px;
+    font-size: small;
+    padding-bottom: 5em;
 }

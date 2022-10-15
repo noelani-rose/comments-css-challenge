@@ -1,12 +1,16 @@
 body{
     background-color: hsl(223deg 11% 90%);
-    margin: 8em;
+    margin: 8em 25em;
 }
 
 p{
     background-color: white;
     padding: 2em;
+    padding-left: 3em;
+    margin: -2px;
     color: hsl(223deg 9% 63%);
+    border-radius: 5px;
+    font-family: Verdana, sans-serif;
 }
 
 .comments{
@@ -20,4 +24,26 @@ img{
 .name{
     color: rgb(59, 56, 56) ;
     font-weight: bold;
+}
+
+.reply{
+    position: relative;
+    margin-left: 8em;
+}
+
+.you{
+    background-color: hsl(238, 40%, 52%);
+    padding: .2em .5em;
+    border-radius: 2px;
+    font-size: smaller;
+    color: white;
+    font-weight: 550;
+}
+
+.votes{
+    text-align: left;
+}
+
+.addComment{
+    background-color: white;
 }

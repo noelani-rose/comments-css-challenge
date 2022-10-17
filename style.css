@@ -22,7 +22,8 @@ body{
     width: 50px;
     text-align: center;
     border-radius: 5px;
-    padding-top: 35px;
+    padding-top: 25px;
+    
 }
 img{
     height: 40px;
@@ -55,27 +56,37 @@ img{
     text-align: left;
 }
 
+.replies{
+    margin-left: 110px;
+
+}
+
+
 .addComment{
     background-color: white;
     padding: 2em;
-    padding-top: .3em;
     padding-right: 11em;
     border-radius: 5px;
+    margin-top: -15px;
 }
 
 .addCommentText{
     border: solid 1px;
     font-size: small;
-    padding-bottom: 5em;
-    padding-right: -1em;
+    padding-bottom: 6em;
+    border-radius: 5px;
+}
+
+#addCommentText{
+    padding-top: 3px;
+    padding-left: 20px;
 }
 
 .send{
-    position: relative;
-    left: 70em;
-    top: 3em;
     background-color: hsl(238, 40%, 52%);
-    padding: .8em 2em;
+    padding: 0.8em 2em;
     border-radius: 5px;
     color: white;
+    float: right;
+    margin-right: -125px;
 }

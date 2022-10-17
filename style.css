@@ -71,7 +71,7 @@ img{
 }
 
 .addCommentText{
-    border: solid 1px;
+    border: solid 1px #c7c6ce;
     font-size: small;
     padding-bottom: 6em;
     border-radius: 5px;
@@ -80,6 +80,9 @@ img{
 #addCommentText{
     padding-top: 3px;
     padding-left: 20px;
+    font-family: Verdana, sans-serif;
+    color: hsl(223deg 9% 63%);
+
 }
 
 .send{

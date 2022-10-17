@@ -59,6 +59,14 @@ img{
     color: rgb(147, 148, 150)
 }
 
+.comments button:hover{
+    color: blue;
+}
+
+.comments button:active{
+    font-size: large;
+}
+
 
 .replies{
     margin-left: 42px;
@@ -66,7 +74,6 @@ img{
     border-left: solid 2px rgb(182, 182, 188);
 
 }
-
 
 .addComment{
     background-color: white;
@@ -81,6 +88,9 @@ img{
     font-size: small;
     padding-bottom: 6em;
     border-radius: 5px;
+    padding-right: 700px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 #addCommentText{
@@ -88,7 +98,6 @@ img{
     padding-left: 20px;
     font-family: Verdana, sans-serif;
     color: hsl(223deg 9% 63%);
-
 }
 
 .send{
@@ -98,4 +107,12 @@ img{
     color: white;
     float: right;
     margin-right: -125px;
+    cursor: pointer;
+}
+
+.send:hover{
+    color: blue;
+}
+.send:active{
+    font-size: large;
 }

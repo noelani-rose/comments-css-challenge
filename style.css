@@ -22,7 +22,7 @@ body{
     width: 50px;
     text-align: center;
     border-radius: 5px;
-    padding-top: 25px;
+    padding-top: 20px;
     
 }
 img{
@@ -52,12 +52,18 @@ img{
     margin-right: 10px;
 }
 
-.votes{
-    text-align: left;
+.comments button{
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(147, 148, 150)
 }
 
+
 .replies{
-    margin-left: 110px;
+    margin-left: 42px;
+    padding-left: 42px;
+    border-left: solid 2px rgb(182, 182, 188);
 
 }
 

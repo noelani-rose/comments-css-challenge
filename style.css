@@ -26,15 +26,15 @@ body{
 }
 img{
     height: 40px;
+    padding-right: 25px;
+    margin-bottom: -20px;
 }
 
 .name{
-    color: rgb(59, 56, 56) ;
+    color: rgb(59, 56, 56);
     font-weight: bold;
+    padding-right: 10px;
 }
-
-
-
 
 .reply{
     position: relative;
@@ -48,6 +48,7 @@ img{
     font-size: smaller;
     color: white;
     font-weight: 550;
+    margin-right: 10px;
 }
 
 .votes{
